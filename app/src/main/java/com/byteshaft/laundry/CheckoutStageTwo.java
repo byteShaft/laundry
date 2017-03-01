@@ -208,7 +208,7 @@ public class CheckoutStageTwo extends AppCompatActivity implements View.OnClickL
                     Toast.makeText(this, "please select drop time", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                CheckOutActivity.getInstance().sendData(pickUpTimeString + " " + pickUpTimeString
+                CheckOutActivity.getInstance().sendData(pickUpDateString + " " + pickUpTimeString
                         , dropDateString + " " + dropTimeString, laundryType);
                 break;
         }
